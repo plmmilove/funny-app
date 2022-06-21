@@ -2,8 +2,7 @@
   <div style=" width: 100%; text-align: center">
     <canvas ref="clockCanvas" :width="width" :height="height">
     </canvas>
-
-
+    <button @click="speak">报时</button>
   </div>
 </template>
 
@@ -24,9 +23,17 @@ export default defineComponent({
       height: 800,
       ctx: null,
       canvas: null,
+      voiceData: [],
     };
   },
   methods: {
+    speak() {
+      let msg = new SpeechSynthesisUtterance();
+      msg.text = "北京时间" + new Date().toLocaleString();
+
+      msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == "Microsoft Kangkang - Chinese (Simplified, PRC)"; })[0];
+      window.speechSynthesis.speak(msg);
+    },
     draw() {
       let nowDate = new Date();
       let second = nowDate.getSeconds();
@@ -90,6 +97,15 @@ export default defineComponent({
     this.ctx = this.canvas.getContext("2d");
     this.draw()
     setInterval(() => this.draw(), 1000);
+
+    let timer = setInterval(() => {
+      if(!this.voiceData.length) {
+        this.voiceData = speechSynthesis.getVoices();
+      } else {
+        this.speak()
+        clearInterval(timer);
+      }
+    }, 500);
   },
 });
 </script>
