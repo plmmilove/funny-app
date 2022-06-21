@@ -1,20 +1,20 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-5473606c.mjs",
+    "file": "entry-ed4f8322.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
       "pages/index.vue"
     ],
     "css": [
-      "entry.14dc1163.css"
+      "entry.7e264821.css"
     ],
     "assets": [
       "clock.b2e7c041.svg"
     ]
   },
   "pages/index.vue": {
-    "file": "index-87aa7a53.mjs",
+    "file": "index-1c735e34.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
