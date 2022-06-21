@@ -2,6 +2,8 @@
   <div style=" width: 100%; text-align: center">
     <canvas ref="clockCanvas" :width="width" :height="height">
     </canvas>
+
+
   </div>
 </template>
 
@@ -9,6 +11,11 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
+  setup() {
+    useHead({
+      title: 'Clock',
+    })
+  },
   layout: false,
   name: 'Clock',
   data() {
@@ -26,45 +33,6 @@ export default defineComponent({
       let minute = nowDate.getMinutes();
       let hour = nowDate.getHours();
       this.ctx.clearRect(0, 0, this.width, this.height);
-      this.ctx.beginPath();
-      this.ctx.lineCap = "round";
-      for (let i = 0; i < 60; i++) {
-        if ((i + 5) % 5 === 0) {
-          continue;
-        }
-        this.ctx.moveTo(Math.cos((i * 6) / 180 * Math.PI) * 350 + 400, Math.sin((i * 6) / 180 * Math.PI) * 350 + 400);
-        this.ctx.lineTo(Math.cos((i * 6) / 180 * Math.PI) * 335 + 400, Math.sin((i * 6) / 180 * Math.PI) * 335 + 400);
-      }
-      this.ctx.save();
-      this.ctx.closePath();
-      this.ctx.lineWidth = 7;
-      this.ctx.strokeStyle = '#000';
-      this.ctx.stroke();
-
-      this.ctx.beginPath();
-      this.ctx.lineCap = "round";
-      for (let i = 1; i < 13; i++) {
-        this.ctx.moveTo(Math.cos((i * 30) / 180 * Math.PI) * 350 + 400, -Math.sin((i * 30) / 180 * Math.PI) * 350 + 400);
-        this.ctx.lineTo(Math.cos((i * 30) / 180 * Math.PI) * 320 + 400, -Math.sin((i * 30) / 180 * Math.PI) * 320 + 400);
-        this.ctx.font = "50px Arial";
-        if (i > 9) {
-          this.ctx.fillText(i, Math.cos((i * 30 - 90) / 180 * Math.PI) * 280 + 400 - 25, Math.sin((i * 30 - 90) / 180 * Math.PI) * 280 + 400 + 25);
-        } else {
-          this.ctx.fillText(i, Math.cos((i * 30 - 90) / 180 * Math.PI) * 280 + 388, Math.sin((i * 30 - 90) / 180 * Math.PI) * 280 + 400 + 20);
-        }
-      }
-      this.ctx.lineWidth = 11;
-      this.ctx.strokeStyle = '#000';
-      this.ctx.stroke();
-      this.ctx.closePath();
-      this.ctx.restore();
-
-      // this.ctx.beginPath();
-      // this.ctx.font = "24px Arial";
-      // this.ctx.fillText('LOVE LELE', 333, 540)
-      // this.ctx.font = "18px Arial";
-      // this.ctx.fillText('Rourou', 370, 570)
-      // this.ctx.closePath();
 
       this.ctx.beginPath();
       this.ctx.moveTo(Math.cos((hour * 30 + minute / 2 - 90) / 180 * Math.PI) * 220 + 400, Math.sin((hour * 30 + minute / 2 - 90) / 180 * Math.PI) * 220 + 400);
@@ -127,4 +95,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
+canvas {
+  background-image: url(assets/images/clock.svg);
+}
 </style>
