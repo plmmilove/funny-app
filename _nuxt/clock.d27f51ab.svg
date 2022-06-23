@@ -12,16 +12,16 @@
   <line x1="351.55444566227675" y1="287.50000000000006" x2="338.5640646055101" y2="280.00000000000006" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
   <line x1="375" y1="200.00000000000006" x2="360" y2="200.00000000000003" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
 
-  <text  x="264" y="98.7564434701786" style="stroke-width:11;font: 30px Arial">1</text>
-  <text  x="315.24355652982143" y="150" style="stroke-width:11;font: 30px Arial">2</text>
-  <text  x="334" y="220" style="stroke-width:11;font: 30px Arial">3</text>
-  <text  x="315.24355652982143" y="290" style="stroke-width:11;font: 30px Arial">4</text>
-  <text  x="264" y="341.2435565298214" style="stroke-width:11;font: 30px Arial">5</text>
-  <text  x="194" y="360" style="stroke-width:11;font: 30px Arial">6</text>
-  <text  x="124.00000000000003" y="341.24355652982143" style="stroke-width:11;font: 30px Arial">7</text>
-  <text  x="72.75644347017858" y="290" style="stroke-width:11;font: 30px Arial">8</text>
-  <text  x="54" y="220.00000000000003" style="stroke-width:11;font: 30px Arial">9</text>
-  <text  x="53.756443470178596" y="155" style="stroke-width:11;font: 30px Arial">10</text>
-  <text  x="104.99999999999994" y="103.75644347017861" style="stroke-width:11;font: 30px Arial">11</text>
-  <text  x="174.99999999999997" y="85" style="stroke-width:11;font: 30px Arial">12</text>
+  <text x="262" y="88" style="stroke-width:11;font: 30px Arial">1</text>
+  <text x="315.24355652982143" y="140" style="stroke-width:11;font: 30px Arial">2</text>
+  <text x="334" y="210" style="stroke-width:11;font: 30px Arial">3</text>
+  <text x="315.24355652982143" y="280" style="stroke-width:11;font: 30px Arial">4</text>
+  <text x="264" y="331.2435565298214" style="stroke-width:11;font: 30px Arial">5</text>
+  <text x="192" y="350" style="stroke-width:11;font: 30px Arial">6</text>
+  <text x="124.00000000000003" y="331.24355652982143" style="stroke-width:11;font: 30px Arial">7</text>
+  <text x="72.75644347017858" y="280" style="stroke-width:11;font: 30px Arial">8</text>
+  <text x="50" y="210.00000000000003" style="stroke-width:11;font: 30px Arial">9</text>
+  <text x="65.7564434701786" y="143" style="stroke-width:11;font: 30px Arial">10</text>
+  <text x="117" y="91.75644347017861" style="stroke-width:11;font: 30px Arial">11</text>
+  <text x="183" y="73" style="stroke-width:11;font: 30px Arial">12</text>
 </svg>
