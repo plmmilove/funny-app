@@ -2,6 +2,7 @@
   <div style=" width: 100%; text-align: center">
     <canvas ref="clockCanvas" :width="width" :height="height">
     </canvas>
+
     <button @click="speak">报时</button>
   </div>
 </template>
@@ -39,6 +40,35 @@ export default defineComponent({
       let minute = nowDate.getMinutes();
       let hour = nowDate.getHours();
       this.ctx.clearRect(0, 0, this.width, this.height);
+
+      this.ctx.beginPath();
+      this.ctx.lineCap = "round";
+      for (let i = 1; i < 13; i++) {
+        let x1 =Math.cos((i * 30) / 180 * Math.PI) * 175 + 200;
+        let y1 = -Math.sin((i * 30) / 180 * Math.PI) * 175 + 200;
+        let x2 = Math.cos((i * 30) / 180 * Math.PI) * 160 + 200;
+        let y2 = -Math.sin((i * 30) / 180 * Math.PI) * 160 + 200;
+        this.ctx.moveTo(x1, y1);
+        this.ctx.lineTo(x2, y2);
+
+        this.ctx.font = "30px Arial";
+        if (i > 9) {
+          let x = Math.cos((i * 30 - 90) / 180 * Math.PI) * 140 + 200 - 13;
+          let y = Math.sin((i * 30 - 90) / 180 * Math.PI) * 140 + 200 + 13;
+          this.ctx.fillText(i, x, y);
+          console.log(`x="${x}" y="${y}"`)
+        } else {
+          let x = Math.cos((i * 30 - 90) / 180 * Math.PI) * 140 + 194;
+          let y = Math.sin((i * 30 - 90) / 180 * Math.PI) * 140 + 200 + 10;
+          this.ctx.fillText(i, x, y);
+          console.log(`x="${x}" y="${y}"`)
+        }
+      }
+      this.ctx.lineWidth = 11;
+      this.ctx.strokeStyle = '#000';
+      this.ctx.stroke();
+      this.ctx.closePath();
+      this.ctx.restore();
 
       this.ctx.beginPath();
       this.ctx.moveTo(Math.cos((hour * 30 + minute / 2 - 90) / 180 * Math.PI) * 110 + 200, Math.sin((hour * 30 + minute / 2 - 90) / 180 * Math.PI) * 110 + 200);
@@ -95,13 +125,10 @@ export default defineComponent({
     this.canvas = this.$refs.clockCanvas;
     this.ctx = this.canvas.getContext("2d");
     this.draw()
-    setInterval(() => this.draw(), 1000);
+    // setInterval(() => this.draw(), 1000);
   },
 });
 </script>
 
 <style scoped>
-canvas {
-  background-image: url(assets/images/clock.svg);
-}
 </style>

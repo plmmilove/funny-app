@@ -1,77 +1,27 @@
-<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
-  <line x1="748.0826633788956" y1="436.5849621436787" x2="733.1648349483715" y2="435.0170351946639" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="742.351660256832" y1="472.76909178621577" x2="727.6794462458249" y2="469.65041642394937" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="732.8697807033037" y1="508.15594803123156" x2="718.6039329588764" y2="503.5206931156074" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="719.7409101749104" y1="542.35782507653" x2="706.0377283102713" y2="536.2567754303931" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="683.1559480312317" y1="605.7248383023656" x2="671.0206931156074" y2="596.9080595179785" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="660.1006889170881" y1="634.1957122256003" x2="648.9535165349271" y2="624.1587531302175" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="634.1957122256003" y1="660.1006889170881" x2="624.1587531302175" y2="648.9535165349271" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="605.7248383023656" y1="683.1559480312317" x2="596.9080595179785" y2="671.0206931156074"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="542.3578250765302" y1="719.7409101749104" x2="536.2567754303932" y2="706.0377283102713"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="508.1559480312316" y1="732.8697807033037" x2="503.5206931156074" y2="718.6039329588764"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="472.7690917862157" y1="742.351660256832" x2="469.6504164239493" y2="727.6794462458249"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="436.5849621436787" y1="748.0826633788956" x2="435.0170351946639" y2="733.1648349483715"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="363.4150378563213" y1="748.0826633788956" x2="364.9829648053361" y2="733.1648349483717"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="327.2309082137843" y1="742.351660256832" x2="330.3495835760507" y2="727.6794462458249"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="291.84405196876844" y1="732.8697807033038" x2="296.47930688439266" y2="718.6039329588765"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="257.64217492346995" y1="719.7409101749104" x2="263.743224569607" y2="706.0377283102714"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="194.27516169763445" y1="683.1559480312317" x2="203.09194048202153" y2="671.0206931156074"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="165.80428777439974" y1="660.1006889170881" x2="175.8412468697826" y2="648.9535165349271"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="139.899311082912" y1="634.1957122256003" x2="151.0464834650729" y2="624.1587531302174"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="116.84405196876844" y1="605.7248383023657" x2="128.97930688439266" y2="596.9080595179785"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="80.25908982508963" y1="542.35782507653" x2="93.96227168972865" y2="536.256775430393"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="67.13021929669628" y1="508.1559480312316" x2="81.39606704112356" y2="503.5206931156074"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="57.64833974316798" y1="472.76909178621577" x2="72.32055375417508" y2="469.65041642394937"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="51.91733662110437" y1="436.5849621436788" x2="66.83516505162845" y2="435.017035194664"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="51.91733662110437" y1="363.4150378563213" x2="66.83516505162845" y2="364.9829648053361"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="57.64833974316798" y1="327.23090821378435" x2="72.32055375417508" y2="330.3495835760507"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="67.13021929669628" y1="291.8440519687683" x2="81.39606704112356" y2="296.4793068843925"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="80.25908982508963" y1="257.64217492347007" x2="93.96227168972865" y2="263.74322456960704"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="116.84405196876838" y1="194.27516169763445" x2="128.9793068843926" y2="203.09194048202153"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="139.899311082912" y1="165.80428777439963" x2="151.04648346507292" y2="175.84124686978248"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="165.80428777439954" y1="139.8993110829121" x2="175.84124686978242" y2="151.046483465073"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="194.27516169763436" y1="116.84405196876844" x2="203.09194048202147" y2="128.97930688439266"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="257.64217492346995" y1="80.25908982508963" x2="263.743224569607" y2="93.96227168972865"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="291.8440519687683" y1="67.13021929669628" x2="296.4793068843926" y2="81.39606704112356"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="327.23090821378406" y1="57.64833974316804" x2="330.34958357605046" y2="72.32055375417514"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="363.415037856321" y1="51.91733662110437" x2="364.9829648053358" y2="66.83516505162845"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="436.58496214367887" y1="51.91733662110437" x2="435.01703519466406" y2="66.83516505162845"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="472.76909178621577" y1="57.64833974316804" x2="469.6504164239494" y2="72.32055375417514"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="508.15594803123156" y1="67.13021929669623" x2="503.5206931156073" y2="81.3960670411235"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="542.3578250765299" y1="80.25908982508963" x2="536.256775430393" y2="93.96227168972865"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="605.7248383023655" y1="116.84405196876833" x2="596.9080595179785" y2="128.97930688439254"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="634.1957122256005" y1="139.8993110829121" x2="624.1587531302175" y2="151.046483465073"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="660.1006889170878" y1="165.80428777439943" x2="648.9535165349268" y2="175.8412468697823"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="683.1559480312316" y1="194.27516169763433" x2="671.0206931156074" y2="203.0919404820214"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="719.7409101749104" y1="257.64217492346995" x2="706.0377283102714" y2="263.7432245696069"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="732.8697807033037" y1="291.8440519687683" x2="718.6039329588764" y2="296.47930688439254"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="742.351660256832" y1="327.23090821378406" x2="727.6794462458249" y2="330.34958357605046"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
-  <line x1="748.0826633788956" y1="363.41503785632096" x2="733.1648349483715" y2="364.9829648053358"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:7"/>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <line x1="351.55444566227675" y1="112.50000000000001" x2="338.5640646055102" y2="120.00000000000001" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
+  <line x1="287.5" y1="48.44555433772325" x2="280" y2="61.43593539448983" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
+  <line x1="200" y1="25" x2="200" y2="40" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
+  <line x1="112.50000000000004" y1="48.44555433772322" x2="120.00000000000003" y2="61.4359353944898" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
+  <line x1="48.44555433772322" y1="112.50000000000001" x2="61.4359353944898" y2="120.00000000000001" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
+  <line x1="25" y1="199.99999999999997" x2="40" y2="199.99999999999997" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
+  <line x1="48.44555433772325" y1="287.5" x2="61.43593539448983" y2="280" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
+  <line x1="112.49999999999993" y1="351.55444566227675" x2="119.99999999999993" y2="338.56406460551017" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
+  <line x1="199.99999999999997" y1="375" x2="199.99999999999997" y2="360" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
+  <line x1="287.5" y1="351.55444566227675" x2="280" y2="338.56406460551017" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
+  <line x1="351.55444566227675" y1="287.50000000000006" x2="338.5640646055101" y2="280.00000000000006" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
+  <line x1="375" y1="200.00000000000006" x2="360" y2="200.00000000000003" stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
 
-
-  <line x1="703.1088913245535" y1="225.00000000000003" x2="677.1281292110205" y2="240.00000000000003"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-  <line x1="575" y1="96.8911086754465" x2="560" y2="122.87187078897966"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-  <line x1="400" y1="50" x2="400" y2="80"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-  <line x1="225.00000000000009" y1="96.89110867544645" x2="240.00000000000006" y2="122.8718707889796"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-  <line x1="96.89110867544645" y1="225.00000000000003" x2="122.8718707889796" y2="240.00000000000003"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-  <line x1="50" y1="399.99999999999994" x2="80" y2="399.99999999999994"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-  <line x1="96.8911086754465" y1="575" x2="122.87187078897966" y2="560"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-  <line x1="224.99999999999986" y1="703.1088913245535" x2="239.99999999999986" y2="677.1281292110203"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-  <line x1="399.99999999999994" y1="750" x2="399.99999999999994" y2="720"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-  <line x1="575" y1="703.1088913245535" x2="560" y2="677.1281292110203"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-  <line x1="703.1088913245535" y1="575.0000000000001" x2="677.1281292110202" y2="560.0000000000001"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-  <line x1="750" y1="400.0000000000001" x2="720" y2="400.00000000000006"  stroke-linecap="round" style="stroke:rgb(0,0,0);stroke-width:14"/>
-
-  <text x="528" y="177.5128869403572" style="stroke-width:11;font: 50px Arial">1</text>
-  <text x="630.4871130596429" y="280" style="stroke-width:11;font: 50px Arial">2</text>
-  <text x="668" y="420" style="stroke-width:11;font: 50px Arial">3</text>
-  <text x="630.4871130596429" y="560" style="stroke-width:11;font: 50px Arial">4</text>
-  <text x="528" y="662.4871130596428" style="stroke-width:11;font: 50px Arial">5</text>
-  <text x="388" y="700" style="stroke-width:11;font: 50px Arial">6</text>
-  <text x="248.00000000000006" y="662.4871130596429" style="stroke-width:11;font: 50px Arial">7</text>
-  <text x="145.51288694035716" y="560" style="stroke-width:11;font: 50px Arial">8</text>
-  <text x="108" y="420.00000000000006" style="stroke-width:11;font: 50px Arial">9</text>
-  <text x="132.5128869403572" y="285" style="stroke-width:11;font: 50px Arial">10</text>
-  <text x="234.9999999999999" y="182.51288694035722" style="stroke-width:11;font: 50px Arial">11</text>
-  <text x="374.99999999999994" y="145" style="stroke-width:11;font: 50px Arial">12</text>
+  <text x="262" y="88" style="stroke-width:11;font: 30px Arial">1</text>
+  <text x="315.24355652982143" y="140" style="stroke-width:11;font: 30px Arial">2</text>
+  <text x="334" y="210" style="stroke-width:11;font: 30px Arial">3</text>
+  <text x="315.24355652982143" y="280" style="stroke-width:11;font: 30px Arial">4</text>
+  <text x="264" y="331.2435565298214" style="stroke-width:11;font: 30px Arial">5</text>
+  <text x="192" y="350" style="stroke-width:11;font: 30px Arial">6</text>
+  <text x="124.00000000000003" y="331.24355652982143" style="stroke-width:11;font: 30px Arial">7</text>
+  <text x="72.75644347017858" y="280" style="stroke-width:11;font: 30px Arial">8</text>
+  <text x="50" y="210.00000000000003" style="stroke-width:11;font: 30px Arial">9</text>
+  <text x="65.7564434701786" y="143" style="stroke-width:11;font: 30px Arial">10</text>
+  <text x="117" y="91.75644347017861" style="stroke-width:11;font: 30px Arial">11</text>
+  <text x="183" y="73" style="stroke-width:11;font: 30px Arial">12</text>
 </svg>
