@@ -1,5 +1,5 @@
 <template>
-  <div style=" width: 100%; text-align: center">
+  <div style=" width: 100%; text-align: center;">
     <canvas ref="clockCanvas" :width="width" :height="height">
     </canvas>
     <button @click="speak">报时</button>
